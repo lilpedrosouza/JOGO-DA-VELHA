@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Rabisco";
+  src: url("BlackBoard.ttf") format("truetype");
+}
+
+body {
+  margin: 0px;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ddff00;
+  font-family: "Rabisco", sans-serif;
+}
+
+.playerName {
+  padding: 10px;
+}
+
+.playerName input {
+  font-family: "Rabisco", sans-serif;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+}
+
+.btnStart button {
+  padding: 10px 24px;
+  font-family: "Rabisco", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  background-color: #2200ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.btnStart button:hover {
+  background-color: #0056b3;
+}
